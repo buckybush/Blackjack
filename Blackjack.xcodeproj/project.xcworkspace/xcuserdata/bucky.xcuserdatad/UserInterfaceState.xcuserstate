@@ -533,9 +533,9 @@
     s = 0;
 }</string>
 		</dict>
-		<real>333390935.98933798</real>
-		<string>{242, 760}</string>
-		<string>{1740, 0}</string>
+		<real>333391638.46189499</real>
+		<string>{809, 775}</string>
+		<string>{1477, 0}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -1886,7 +1886,7 @@
 				<integer>171</integer>
 			</dict>
 			<key>NS.time</key>
-			<real>333390905.80901098</real>
+			<real>333391630.69325203</real>
 		</dict>
 		<dict>
 			<key>$classes</key>
@@ -1897,7 +1897,7 @@
 			<key>$classname</key>
 			<string>NSDate</string>
 		</dict>
-		<string>Today at 12:35 PM</string>
+		<string>Today at 12:47 PM</string>
 		<integer>234</integer>
 		<string>Blackjack</string>
 		<dict>
@@ -2871,7 +2871,7 @@
 		<string>DVTIdentifier</string>
 		<string>DVTViewMagnitude</string>
 		<string>VariablesView</string>
-		<real>570</real>
+		<real>610</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -2902,7 +2902,7 @@
 			</array>
 		</dict>
 		<string>ConsoleArea</string>
-		<real>569</real>
+		<real>609</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -2971,7 +2971,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>570</real>
+		<real>610</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -3001,7 +3001,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>569</real>
+		<real>609</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -3440,7 +3440,7 @@
 			</array>
 		</dict>
 		<string>IDEEditor</string>
-		<real>477</real>
+		<real>419</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -3471,7 +3471,7 @@
 			</array>
 		</dict>
 		<string>IDEDebuggerArea</string>
-		<real>399</real>
+		<real>329</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -3625,7 +3625,7 @@
 				</dict>
 			</array>
 		</dict>
-		<string>{{0, 0}, {569, 455}}</string>
+		<string>{{0, 0}, {609, 397}}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -3893,9 +3893,9 @@
 				</dict>
 			</array>
 		</dict>
-		<real>333390935.99156702</real>
-		<string>{242, 760}</string>
-		<string>{1740, 0}</string>
+		<real>333391638.46442997</real>
+		<string>{809, 775}</string>
+		<string>{1477, 0}</string>
 		<string>main()</string>
 		<string>Xcode.IDEKit.EditorDocument.SourceCode</string>
 		<dict>
@@ -3930,7 +3930,7 @@
 				</dict>
 			</array>
 		</dict>
-		<string>{{0, 0}, {1140, 455}}</string>
+		<string>{{0, 0}, {1220, 397}}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -4000,7 +4000,7 @@
 			</array>
 		</dict>
 		<string></string>
-		<real>652</real>
+		<real>524</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -4084,7 +4084,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>372</integer>
+					<integer>374</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -4673,7 +4673,7 @@
 		<string>IDERecentDocumentFilteringEnabled</string>
 		<string>IDESCMStatusFilteringEnabled</string>
 		<string>IDEExpandedItemsSet</string>
-		<string>{{0, 0}, {259, 832}}</string>
+		<string>{{0, 0}, {259, 704}}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -4909,7 +4909,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>1140</real>
+		<real>1220</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -4941,7 +4941,7 @@
 		</dict>
 		<string>IDEUtilitiesArea</string>
 		<real>260</real>
-		<string>{{387, 26}, {1400, 952}}</string>
+		<string>{{55, 234}, {1480, 824}}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
