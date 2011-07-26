@@ -1,21 +1,15 @@
-//
-//  main.m
-//  Blackjack
-//
-//  Created by Bucky Bush on 7/26/11.
-//  Copyright 2011 Northwest GA RESA. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
+#include <stdlib.h>
 
 int main (int argc, const char * argv[])
 {
 
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 
-    // insert code here...
-    NSLog(@"Hello, World!");
-
+    int r = arc4random() % 13;
+    
+    
+    
     [pool drain];
     return 0;
 }

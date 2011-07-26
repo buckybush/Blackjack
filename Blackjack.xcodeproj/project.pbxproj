@@ -10,6 +10,7 @@
 		0F51078913DEF01100F47655 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F51078813DEF01100F47655 /* Foundation.framework */; };
 		0F51078C13DEF01100F47655 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F51078B13DEF01100F47655 /* main.m */; };
 		0F51079013DEF01100F47655 /* Blackjack.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0F51078F13DEF01100F47655 /* Blackjack.1 */; };
+		0F5EBDF513DEF7C3007BC3FD /* Dealer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5EBDF413DEF7C3007BC3FD /* Dealer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		0F51078B13DEF01100F47655 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0F51078E13DEF01100F47655 /* Blackjack-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Blackjack-Prefix.pch"; sourceTree = "<group>"; };
 		0F51078F13DEF01100F47655 /* Blackjack.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Blackjack.1; sourceTree = "<group>"; };
+		0F5EBDF313DEF7C3007BC3FD /* Dealer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dealer.h; sourceTree = "<group>"; };
+		0F5EBDF413DEF7C3007BC3FD /* Dealer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dealer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				0F51078B13DEF01100F47655 /* main.m */,
+				0F5EBDF313DEF7C3007BC3FD /* Dealer.h */,
+				0F5EBDF413DEF7C3007BC3FD /* Dealer.m */,
 				0F51078F13DEF01100F47655 /* Blackjack.1 */,
 				0F51078D13DEF01100F47655 /* Supporting Files */,
 			);
@@ -139,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F51078C13DEF01100F47655 /* main.m in Sources */,
+				0F5EBDF513DEF7C3007BC3FD /* Dealer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +233,7 @@
 				0F51079513DEF01100F47655 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
