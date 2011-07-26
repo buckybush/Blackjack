@@ -1,8 +1,10 @@
 #import <Foundation/Foundation.h>
 
 @interface Dealer : NSObject{
-    
+    int dealerHand;
 }
--(int) dealCard:(int)hand;
+@property int dealerHand;
+- (int) dealCard:(int)hand;
+- (int) selfDeal:(int)hand;
 
 @end

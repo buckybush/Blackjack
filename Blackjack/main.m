@@ -18,6 +18,14 @@ int main (int argc, const char * argv[])
     NSLog(@"Card 2: %i",card);
     NSLog(@"Hand = %i",hand);
     
+    
+    frank.dealerHand=[frank selfDeal:frank.dealerHand];
+    NSLog(@"Final Hand: %i",frank.dealerHand);
+    
+    
+    // Housekeeping
+    [frank release];
+    
     [pool drain];
     return 0;
 }

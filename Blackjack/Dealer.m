@@ -2,6 +2,7 @@
 #import <stdlib.h>
 
 @implementation Dealer
+@synthesize dealerHand;
 
 - (int)dealCard:(int)hand{
     int h = hand; // Set input equal to h
@@ -23,6 +24,28 @@
     }
     return x; // Return value of card dealt
 }
+
+- (int)selfDeal:(int)hand{
+    int h = hand, c, i=3;
+    c=[self dealCard:h];
+    h+=c;
+    NSLog(@"Card 1: %i", c);
+    c=[self dealCard:h];
+    h+=c;
+    NSLog(@"Card 2: %i", c);
+    while(h<16){
+        c=[self dealCard:h];
+        h+=c;
+        NSLog(@"Card %i: %i",i,c);
+        i++;
+    }
+    if(h>21)
+        NSLog(@"Dealer has Busted with %i",h);
+    else
+        NSLog(@"Dealer has: %i",h);
+    return h;
+}
+
 
 - (id)init
 {
