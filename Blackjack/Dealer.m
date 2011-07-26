@@ -1,14 +1,28 @@
-//
-//  Dealer.m
-//  Blackjack
-//
-//  Created by Bucky Bush on 7/26/11.
-//  Copyright 2011 Northwest GA RESA. All rights reserved.
-//
-
 #import "Dealer.h"
+#import <stdlib.h>
 
 @implementation Dealer
+
+- (int)dealCard:(int)hand{
+    int h = hand; // Set input equal to h
+    int x; // declare int for return
+    int r = (arc4random() % 12)+1; // Create random num between 1 and 12
+    
+    // 1 = Ace (11 or 1 if you bust with 11)
+    if(r==1){
+        if((h+11)>21)
+            x=1;
+        else
+            x=11;
+    }else if(r>1&&r<10){ // 2 - 9 are face value
+        x=r;
+    }else if(r>=10&&r<=12){ // JQK are all 10
+        x=10;
+    }else{
+        x=-1;
+    }
+    return x; // Return value of card dealt
+}
 
 - (id)init
 {
