@@ -2,7 +2,7 @@
 #import <stdlib.h>
 
 @implementation Dealer
-@synthesize dealerHand;
+@synthesize dealerHand, dealerBust;
 
 - (int)dealCard:(int)hand{
     int h = hand; // Set input equal to h
@@ -39,10 +39,13 @@
         NSLog(@"Card %i: %i",i,c);
         i++;
     }
-    if(h>21)
+    if(h>21){
         NSLog(@"Dealer has Busted with %i",h);
-    else
+        self.dealerBust=1;
+    }else{
         NSLog(@"Dealer has: %i",h);
+        self.dealerBust=0;
+    }
     return h;
 }
 
