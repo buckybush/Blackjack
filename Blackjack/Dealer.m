@@ -7,7 +7,7 @@
 - (int)dealCard:(int)hand{
     int h = hand; // Set input equal to h
     int x; // declare int for return
-    int r = (arc4random() % 12)+1; // Create random num between 1 and 12
+    int r = (arc4random() % 13)+1; // Create random num between 1 and 12
     
     // 1 = Ace (11 or 1 if you bust with 11)
     if(r==1){
@@ -15,9 +15,9 @@
             x=1;
         else
             x=11;
-    }else if(r>1&&r<10){ // 2 - 9 are face value
+    }else if(r>1&&r<11){ // 2 - 10 are face value
         x=r;
-    }else if(r>=10&&r<=12){ // JQK are all 10
+    }else if(r>=10&&r<=13){ // JQK are all 10
         x=10;
     }else{
         x=-1;
